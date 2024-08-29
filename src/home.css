@@ -1,0 +1,72 @@
+.container {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    background-color: #161b22;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.profile-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-card h1 {
+    margin: 0;
+}
+
+.stats {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #8b949e;
+}
+
+.issues-list {
+    background-color: #161b22;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: none;
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+
+.issues-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.issue-card {
+    background-color: #0d1117;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.issue-card h2 {
+    margin: 0 0 10px 0;
+}
+
+.issue-card p {
+    color: #8b949e;
+    font-size: 14px;
+}
